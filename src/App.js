@@ -1,24 +1,25 @@
-import React from 'react'
-import logo from './logo.svg'
+import React, {Component} from 'react';
 import './App.css'
 
+const flName = "Aditya"
+const lname = "Kumar"
+const age = 27
+const name = (`My Name is ${flName} ${lname} and i am ${age} Year Old`);
 
+const today = new Date()
+const date = today.toLocaleDateString()
+const time = today.toLocaleTimeString()
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Aditya
-        </p>
-        <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-          Learn React
-        </a>
-      </header>
+class App extends Component{
+  render(){
+    return (
+      <div className="card">
+    <h1> {name}</h1>
+    <p>{`Today Date is ${date}`}</p>
+    <p>{`Time is ${time}`}</p>
     </div>
-  )
+    )
+  }
 }
 
-
-export default App;
+export default App
