@@ -117,7 +117,7 @@ h6 {
   position: relative;
 }
 
-.switch-wrapper > div {
+.switch-wrapper>div {
   position: absolute;
   transition: all .25s ease-in-out;
   width: 100%;
@@ -144,7 +144,7 @@ h6 {
   justify-content: space-between;
   padding-bottom: 1rem;
 
-  & > * {
+  &>* {
     align-self: center;
   }
 
@@ -203,7 +203,7 @@ h6 {
     width: 100vw;
     z-index: 9999;
 
-    & > * {
+    &>* {
       border-bottom: 1px solid $gray-light;
       border-top: 1px solid $gray-light;
       padding: 1.5rem;
@@ -320,11 +320,12 @@ h6 {
     margin-top: 1.5rem;
     width: calc(100% - 3rem);
 
-    & > * {
+    &>* {
       align-self: flex-start;
     }
 
     .header-left {
+
       h1,
       h5 {
         margin: 0;
@@ -419,7 +420,7 @@ h6 {
       margin-left: 1rem;
     }
 
-    & > * {
+    &>* {
       align-self: center;
     }
   }
@@ -564,7 +565,7 @@ h6 {
       flex-direction: row;
       justify-content: space-between;
 
-      & > * {
+      &>* {
         align-self: center;
       }
 
@@ -1181,7 +1182,7 @@ h6 {
   position: relative;
   width: 100%;
 
-  & > * {
+  &>* {
     align-self: center;
   }
 
@@ -1288,7 +1289,7 @@ h6 {
     padding-bottom: 0;
     width: calc(100% - 4rem);
 
-    & > * {
+    &>* {
       flex: 1;
     }
 
@@ -1333,7 +1334,7 @@ h6 {
         background: $gray-light;
       }
 
-      & > * {
+      &>* {
         align-self: center;
       }
 
@@ -1387,7 +1388,7 @@ h6 {
         padding: .25rem;
         text-align: right;
 
-        & > * {
+        &>* {
           align-self: center;
         }
 
@@ -1416,7 +1417,7 @@ h6 {
         padding: .25rem;
         text-align: right;
 
-        & > * {
+        &>* {
           align-self: center;
         }
 
@@ -1466,7 +1467,7 @@ h6 {
   flex-direction: column;
   width: 100%;
 
-  & > * {
+  &>* {
     align-self: center;
   }
 
@@ -1476,7 +1477,7 @@ h6 {
     justify-content: space-around;
     padding: 1rem;
 
-    & > * {
+    &>* {
       align-self: center;
       margin-left: .5rem;
       margin-right: .5rem;
@@ -1588,7 +1589,7 @@ h6 {
     background: $blue-hover;
   }
 
-  & > * {
+  &>* {
     align-self: center;
   }
 }
@@ -1682,7 +1683,7 @@ h6 {
     flex-direction: column;
     width: calc(25%);
 
-    & > * {
+    &>* {
       align-self: center;
     }
   }
@@ -1705,6 +1706,7 @@ h6 {
   }
 
   .is-cherry {
+
     h1,
     h5 {
       color: $cherry;
@@ -1716,6 +1718,7 @@ h6 {
   }
 
   .is-blue {
+
     h1,
     h5 {
       color: $blue;
@@ -1727,6 +1730,7 @@ h6 {
   }
 
   .is-green {
+
     h1,
     h5 {
       color: $green;
@@ -1738,6 +1742,7 @@ h6 {
   }
 
   .is-gray {
+
     h1,
     h5 {
       color: $gray;
@@ -1999,7 +2004,7 @@ table {
     .title-chevron {
       position: relative;
 
-      & > * {
+      &>* {
         align-self: center;
       }
 
@@ -2706,7 +2711,7 @@ table {
     padding-right: .5rem;
     width: 16rem;
 
-    & > * {
+    &>* {
       align-self: center;
     }
 
@@ -2772,7 +2777,7 @@ table {
       }
     }
 
-    & > * {
+    &>* {
       align-self: center;
     }
   }
@@ -2848,7 +2853,7 @@ input {
     background-color: #eee;
 
     background-image: linear-gradient(45deg, transparent 50%, #808080 50%),
-    linear-gradient(135deg, #808080 50%, transparent 50%);
+      linear-gradient(135deg, #808080 50%, transparent 50%);
     background-position: calc(100% - 13px) 50%, calc(100% - 8px) 50%;
     background-repeat: no-repeat;
     background-size: 5px 5px, 5px 5px;
@@ -2914,7 +2919,7 @@ input {
         margin-left: .25rem;
       }
 
-      & > * {
+      &>* {
         margin-top: auto;
       }
     }
@@ -3017,6 +3022,7 @@ input {
       background: $green-light;
 
       svg {
+
         .domain,
         .tick,
         line {
@@ -3034,6 +3040,7 @@ input {
       background: $gray-light;
 
       svg {
+
         .domain,
         .tick,
         line {
@@ -3051,6 +3058,7 @@ input {
       background: $blue-light;
 
       svg {
+
         .domain,
         .tick,
         line {
@@ -3068,6 +3076,7 @@ input {
       background: $purple-light;
 
       svg {
+
         .domain,
         .tick,
         line {
@@ -3185,7 +3194,7 @@ footer {
   margin-bottom: 5rem;
   margin-top: 5rem;
 
-  & > * {
+  &>* {
     align-self: center;
     text-align: center;
   }
@@ -3250,7 +3259,7 @@ footer {
       width: 12rem;
     }
 
-    & > * {
+    &>* {
       align-self: center;
     }
 
@@ -3270,7 +3279,7 @@ footer {
     flex-direction: row;
     justify-content: space-around;
 
-    & > * {
+    &>* {
       align-self: center;
     }
   }
@@ -3282,13 +3291,13 @@ footer {
   min-height: 30rem;
   width: 100%;
 
-  & > * {
+  &>* {
     align-self: center;
     margin-bottom: 1.5rem;
     width: 30rem;
   }
 
-  & > *:first-child {
+  &>*:first-child {
     margin-top: 2rem;
   }
 
@@ -3433,7 +3442,7 @@ footer {
       color: $gray;
     }
 
-    .react-date-picker__inputGroup > * {
+    .react-date-picker__inputGroup>* {
       color: $gray !important;
     }
 
@@ -3464,7 +3473,7 @@ footer {
       background-color: #eee;
 
       background-image: linear-gradient(45deg, transparent 50%, #808080 50%),
-      linear-gradient(135deg, #808080 50%, transparent 50%);
+        linear-gradient(135deg, #808080 50%, transparent 50%);
       background-position: calc(100% - 13px) 50%, calc(100% - 8px) 50%;
       background-repeat: no-repeat;
       background-size: 5px 5px, 5px 5px;
@@ -3597,7 +3606,7 @@ footer {
   flex-wrap: wrap;
   width: 100%;
 
-  & > * {
+  &>* {
     align-self: center;
   }
 
@@ -3625,7 +3634,7 @@ footer {
     transition: background .3s ease-in-out;
     width: 3.25rem;
 
-    & > * {
+    &>* {
       align-self: center;
     }
 
@@ -3932,7 +3941,7 @@ footer {
     justify-content: center;
     text-align: center;
 
-    & > * {
+    &>* {
       align-self: center !important;
     }
 
@@ -4014,7 +4023,7 @@ footer {
       flex-wrap: wrap;
       height: 10rem;
 
-      & > * {
+      &>* {
         width: 10rem;
       }
 
@@ -4037,7 +4046,7 @@ footer {
       display: flex;
       flex-direction: row;
 
-      & > {
+      &> {
         align-self: center;
       }
     }
@@ -4097,7 +4106,7 @@ footer {
     flex-direction: row;
     justify-content: center;
 
-    & > * {
+    &>* {
       align-self: center;
     }
   }
@@ -4110,7 +4119,7 @@ footer {
     height: 3rem;
     margin-top: 1rem;
 
-    & > * {
+    &>* {
       align-self: center;
     }
 
@@ -4125,7 +4134,7 @@ footer {
     flex-direction: row;
     text-decoration: none;
 
-    & > * {
+    &>* {
       align-self: center;
     }
   }
@@ -4176,7 +4185,7 @@ footer {
   top: 0;
   z-index: 101;
 
-  & > * {
+  &>* {
     align-self: center;
   }
 
@@ -4191,7 +4200,7 @@ footer {
   flex-direction: row;
   justify-content: flex-end;
 
-  > button {
+  >button {
     background-color: $yellow-light;
     border: 2px $yellow-light solid;
     border-bottom: 0;
@@ -4242,7 +4251,7 @@ footer {
   justify-content: center;
   z-index: 101;
 
-  & > * {
+  &>* {
     align-self: center;
   }
 
@@ -4402,7 +4411,7 @@ footer {
     height: 3rem;
     width: 13rem;
 
-    & > * {
+    &>* {
       align-self: center;
     }
 
@@ -4417,7 +4426,7 @@ footer {
     flex-direction: row;
     text-decoration: none;
 
-    & > * {
+    &>* {
       align-self: center;
     }
   }
@@ -4538,7 +4547,7 @@ footer {
         width: auto !important;
       }
 
-      & > * {
+      &>* {
         align-self: center;
       }
 
@@ -4590,7 +4599,7 @@ footer {
           }
         }
 
-        & > * {
+        &>* {
           align-self: center;
         }
       }
@@ -4671,6 +4680,7 @@ footer {
 }
 
 @media (min-width: 769px) {
+
   .Home,
   .State {
     padding-top: 5rem;
@@ -4722,7 +4732,7 @@ footer {
         background: $gray-light-opaque !important;
       }
 
-      & > span {
+      &>span {
         display: flex;
         flex-direction: row;
         height: 1.5rem;
@@ -4746,7 +4756,7 @@ footer {
       width: 15rem;
       z-index: -1 !important;
 
-      & > * {
+      &>* {
         border: 0;
         border-left: 1px solid $gray-light;
         color: $gray;
@@ -4762,6 +4772,7 @@ footer {
   }
 
   .dark-mode {
+
     .Navbar,
     .expand {
       background: #1e1e30 !important;
@@ -4774,6 +4785,7 @@ footer {
 }
 
 @media (max-width: 769px) {
+
   table,
   .header,
   .Level,
@@ -4856,7 +4868,7 @@ footer {
       justify-content: center;
       width: 10rem;
 
-      & > * {
+      &>* {
         align-self: center;
       }
 
@@ -5254,7 +5266,7 @@ footer {
     }
 
     .navbar-right {
-      & > span {
+      &>span {
         display: none;
 
         &:first-child {
@@ -5271,6 +5283,7 @@ footer {
   }
 
   .State {
+
     .district-bar,
     .to-essentials,
     .Clusters {
@@ -5302,7 +5315,7 @@ footer {
   transition: background-color .2s ease-out !important;
 
 
-  .switch-wrapper > div {
+  .switch-wrapper>div {
     background: #161625 !important;
   }
 
@@ -5391,6 +5404,7 @@ footer {
   }
 
   .MapExplorer {
+
     #chart,
     #legend {
       &.zone {
@@ -5458,6 +5472,7 @@ footer {
         background: #40008050 !important;
 
         svg {
+
           .dot,
           .focus,
           .domain,
@@ -5519,7 +5534,7 @@ footer {
     select {
       background: #1e1e30;
       background-image: linear-gradient(45deg, transparent 50%, $gray 50%),
-      linear-gradient(135deg, $gray 50%, transparent 50%);
+        linear-gradient(135deg, $gray 50%, transparent 50%);
       background-position: calc(100% - 13px) 50%, calc(100% - 8px) 50%;
       background-repeat: no-repeat;
       background-size: 5px 5px, 5px 5px;
@@ -5633,6 +5648,7 @@ footer {
 
         .MuiSelect-select {
           &:not([multiple]) {
+
             option,
             optgroup {
               background-color: $dark-m-gray;
