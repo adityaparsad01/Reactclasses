@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import axios from "axios";
 import Columns from "react-columns";
 import Form from "react-bootstrap/Form";
+import "./App.css";
 
 function App() {
   const [Latest, setLatest] = useState([]);
@@ -75,8 +76,8 @@ function App() {
 
   return (
     <div>
-      <CardDeck className="CardDeck">
-        <Card className="text-center" bg="secondary" text="white">
+      <CardDeck>
+        <Card bg="Warning" className="text-center" text={"black"}>
           <Card.Body>
             <Card.Title>Total</Card.Title>
             <Card.Text>{Latest.cases}</Card.Text>
@@ -85,7 +86,7 @@ function App() {
             <small>Latest Update: {lastUpdate}</small>
           </Card.Footer>
         </Card>
-        <Card className="text-center" bg="secondary" text="white">
+        <Card bg="Danger" className="text-center" text={"black"}>
           <Card.Body>
             <Card.Title>Deaths</Card.Title>
             <Card.Text>{Latest.deaths}</Card.Text>
@@ -94,10 +95,10 @@ function App() {
             <small>Latest Update: {lastUpdate}</small>
           </Card.Footer>
         </Card>
-        <Card className="text-center" bg="secondary" text="white">
+        <Card bg="Success" className="text-center" text={"black"}>
           <Card.Body>
             <Card.Title>Recovered</Card.Title>
-            <Card.Text>{Latest.recovered}</Card.Text>
+            <Card.Text className="secondryText">{Latest.recovered}</Card.Text>
           </Card.Body>
           <Card.Footer>
             <small>Latest Update: {lastUpdate}</small>

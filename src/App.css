@@ -1,54 +1,54 @@
 h1 {
-  color: rebeccapurple;
-  text-align: center;
-  text-decoration: slateblue;
+    color: rebeccapurple;
+    text-align: center;
+    text-decoration: slateblue;
 }
 
 p {
-  color: rebeccapurple;
-  text-align: center;
-  text-decoration: slateblue;
-  font-size: 2rem;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
+    color: rebeccapurple;
+    text-align: center;
+    text-decoration: slateblue;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
-  margin: 20px;
-  padding: 20px;
-  cursor: pointer;
-  border-radius: 10px;
-  background-color: rgba(187, 255, 0, 0.432);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    margin: 20px;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: rgba(255, 174, 0, 0.432);
 }
 
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(39, 202, 47, 0.411);
+    box-shadow: 0 8px 16px 0 rgba(39, 202, 47, 0.411);
 }
 
 .child {
-  background-color: springgreen;
-  padding: 30px;
+    background-color: springgreen;
+    padding: 30px;
 }
 
 .GrandSon {
-  background-color: tomato;
-  color: blue;
-  padding: 30px;
+    background-color: tomato;
+    color: blue;
+    padding: 30px;
 }
 
 .Perent {
-  background-color: red;
-  padding: 30px;
+    background-color: red;
+    padding: 30px;
 }
 
 .GrandGrandSon {
-  background-color: green;
-  padding: 30px;
+    background-color: green;
+    padding: 30px;
 }
 
 .CardDeck {
-  margin: 10px;
-  display: grid;
+    margin: 10px;
+    display: grid;
 }
