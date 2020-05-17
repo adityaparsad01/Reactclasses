@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Click from "./Click";
+import App from "./App";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Click />
+    <App />
   </React.StrictMode>,
   document.getElementById("App")
 );

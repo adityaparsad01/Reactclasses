@@ -25,6 +25,8 @@ export class click extends Component {
               <div className="card" key={i}>
                 <h1>{item.Name}</h1>
                 <p>{item.Subject}</p>
+                <p>{item.Course}</p>
+                <p>{item.Year}</p>
               </div>
             ))
           : null}

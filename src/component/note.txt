@@ -582,3 +582,8 @@ export default WrappedComponent => {
 
   return hocComponent
 }
+
+Context API
+provider and consumer
+
+const MyContext = React.createContext(defaultValue)

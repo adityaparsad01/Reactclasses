@@ -26,3 +26,29 @@ p {
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(39, 202, 47, 0.411);
 }
+
+.child {
+  background-color: springgreen;
+  padding: 30px;
+}
+
+.GrandSon {
+  background-color: tomato;
+  color: blue;
+  padding: 30px;
+}
+
+.Perent {
+  background-color: red;
+  padding: 30px;
+}
+
+.GrandGrandSon {
+  background-color: green;
+  padding: 30px;
+}
+
+.CardDeck {
+  margin: 10px;
+  display: grid;
+}
